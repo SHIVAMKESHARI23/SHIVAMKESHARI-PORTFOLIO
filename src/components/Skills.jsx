@@ -42,7 +42,7 @@ const fadeIn = (direction, type, delay, duration) => {
 const SkillCard = ({ name, icon: Icon, hex, percentage, index }) => (
   <motion.div
     variants={fadeIn("up", "spring", index * 0.1, 0.75)}
-    className="w-[280px]"
+    className="w-full max-w-[280px] sm:w-[280px]"
   >
     <div className="bg-[#1e2133]/80 backdrop-blur-sm border border-[#30364d] rounded-2xl p-6 flex flex-col items-center justify-center min-h-[160px] shadow-lg hover:shadow-[0_0_15px_rgba(255,255,255,0.05)] transition-all duration-300">
 

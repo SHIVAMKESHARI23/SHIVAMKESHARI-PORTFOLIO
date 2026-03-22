@@ -10,7 +10,7 @@ const Hero = () => {
 
         <div className="flex flex-col items-start flex-1 w-full relative">
 
-          <h1 className="text-white font-black text-[45px] sm:text-[55px] md:text-[65px] lg:text-[75px] leading-[1.1] mb-2 drop-shadow-2xl">
+          <h1 className="text-white font-black text-[38px] min-[400px]:text-[45px] sm:text-[55px] md:text-[65px] lg:text-[75px] leading-[1.1] mb-2 drop-shadow-2xl">
             Hi, I'm <br className="hidden lg:block" />
             <span className="text-[#8b5cf6] drop-shadow-[0_0_20px_rgba(139,92,246,0.3)]">
               Shivam Keshari
@@ -39,7 +39,7 @@ const Hero = () => {
 
         {/* User Photo Placeholder */}
         <div className="flex-1 flex justify-center lg:justify-end items-center mt-6 lg:mt-0 w-full">
-          <div className="relative w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[380px] md:h-[380px] rounded-full p-2 bg-gradient-to-tr from-[#8b5cf6] to-[#f43f5e] shadow-[0_0_30px_rgba(139,92,246,0.6)] hover:scale-105 transition-transform duration-500">
+          <div className="relative w-[250px] h-[250px] min-[400px]:w-[280px] min-[400px]:h-[280px] sm:w-[320px] sm:h-[320px] md:w-[380px] md:h-[380px] rounded-full p-2 bg-gradient-to-tr from-[#8b5cf6] to-[#f43f5e] shadow-[0_0_30px_rgba(139,92,246,0.6)] hover:scale-105 transition-transform duration-500">
             <div className="w-full h-full rounded-full bg-[#100d25] flex justify-center items-center overflow-hidden border-[6px] border-[#100d25]">
               <img src={meImg} alt="Profile" className="w-full h-full object-cover rounded-full" />
             </div>

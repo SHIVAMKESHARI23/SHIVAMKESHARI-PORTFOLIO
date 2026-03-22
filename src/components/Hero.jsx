@@ -30,7 +30,7 @@ const Hero = () => {
             <button onClick={() => document.getElementById('contact').scrollIntoView()} className="bg-[#8b5cf6] hover:bg-[#7c3aed] text-white px-7 py-3 rounded-lg font-bold transition-colors shadow-lg shadow-purple-500/20">
               Get In Touch
             </button>
-            <a href="./shivam.pdf" download className="flex items-center gap-2 border-2 border-[#8b5cf6] text-[#dfd9ff] hover:bg-[#8b5cf6] hover:text-white px-7 py-3 rounded-lg font-bold transition-all shadow-lg hover:shadow-purple-500/30">
+            <a href="/shivam.pdf" download className="flex items-center gap-2 border-2 border-[#8b5cf6] text-[#dfd9ff] hover:bg-[#8b5cf6] hover:text-white px-7 py-3 rounded-lg font-bold transition-all shadow-lg hover:shadow-purple-500/30">
               <FaDownload /> Download CV
             </a>
           </div>

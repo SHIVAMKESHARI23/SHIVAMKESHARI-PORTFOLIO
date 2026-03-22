@@ -172,7 +172,7 @@ const Projects = () => {
   const projects = [
     {
       name: "WanderLust",
-      image: "./WanderLust/image.png",
+      image: "/wanderlust/image.png",
       description:
         "A full-stack hotel discovery web app using the MERN stack.",
       details: [
@@ -191,7 +191,7 @@ const Projects = () => {
     },
     {
       name: "Startups Ecosystem Tracker",
-      image: "./startupecosystem/image.png",
+      image: "/startupecosystem/image.png",
       description:
         "A PHP & MySQL-based platform to manage and explore startup data.",
       details: [
@@ -210,7 +210,7 @@ const Projects = () => {
     },
     {
       name: "Quiz Builder",
-      image: "./Quiz-Builder/page1.png",
+      image: "/Quiz-builder/page1.png",
       description:
         "A MERN stack app for creating and attempting quizzes.",
       details: [
@@ -230,7 +230,7 @@ const Projects = () => {
     },
     {
       name: "Weather Paglu",
-      image: "./weatherpaglu/image.png",
+      image: "/weatherpaglu/image.png",
       description:
         "A real-time weather app using OpenWeather API with dynamic UI.",
       details: [

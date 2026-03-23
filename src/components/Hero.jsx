@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaCode, FaRocket, FaDownload } from "react-icons/fa";
 
-import meImg from "../assets/me.jpeg";
+import meImg from "../assets/me.png";
 
 const Hero = () => {
   return (
